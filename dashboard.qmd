@@ -23,7 +23,7 @@ data = helpers.get_data(stock)
 ```
 
 
-## Row {.flow}
+## Row
 
 ```{python}
 from IPython.display import Markdown
@@ -81,7 +81,7 @@ helpers.make_candlestick_chart(data, ticker.upper())
 ohlc = helpers.make_OHLC_table(data)
 ```
 
-::: {.card .fill}
+::: {.card}
 
 #### Last Close: `{python} ohlc['date']`
 
