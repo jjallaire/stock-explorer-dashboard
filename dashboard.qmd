@@ -34,7 +34,7 @@ Markdown("**{symbol}** --- {longName} --- [{website}]({website})"
 ## Row
 
 ```{python}
-#| component: valuebox
+#| content: valuebox
 #| title: "Current Price"
 dict(
     icon = "currency-dollar",
@@ -45,7 +45,7 @@ dict(
 
 
 ```{python}
-#| component: valuebox
+#| content: valuebox
 #| title: "Change"
 change = helpers.get_change(data)
 dict(
@@ -56,7 +56,7 @@ dict(
 ```
 
 ```{python}
-#| component: valuebox
+#| content: valuebox
 #| title: "Percent Change"
 dict(
     icon = "percent",
