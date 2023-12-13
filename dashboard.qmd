@@ -85,12 +85,11 @@ ohlc = helpers.make_OHLC_table(data)
 
 #### Last Close: `{python} ohlc['date']`
 
-|    	 |                           |
+| Close	 | `{python} ohlc['close']`  |
 |:-------|--------------------------:|
 | Open	 | `{python} ohlc['open']`   |
 | High	 | `{python} ohlc['high']`   |
 | Low	 | `{python} ohlc['low']`    |
-| Close	 | `{python} ohlc['close']`  |
 | Volume | `{python} ohlc['volume']` |
 : {.striped}
 
